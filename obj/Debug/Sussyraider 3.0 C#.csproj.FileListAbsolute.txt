@@ -1,0 +1,14 @@
+C:\Users\Shin\Desktop\Data\vs_project\Sussyraider 3.0 C#\bin\Debug\Sussyraider 3.0 C#.exe.config
+C:\Users\Shin\Desktop\Data\vs_project\Sussyraider 3.0 C#\bin\Debug\Sussyraider 3.0 C#.exe
+C:\Users\Shin\Desktop\Data\vs_project\Sussyraider 3.0 C#\bin\Debug\Sussyraider 3.0 C#.pdb
+C:\Users\Shin\Desktop\Data\vs_project\Sussyraider 3.0 C#\obj\Debug\Sussyraider 3.0 C#.csproj.AssemblyReference.cache
+C:\Users\Shin\Desktop\Data\vs_project\Sussyraider 3.0 C#\obj\Debug\Sussyraider 3.0 C#.csproj.SuggestedBindingRedirects.cache
+C:\Users\Shin\Desktop\Data\vs_project\Sussyraider 3.0 C#\obj\Debug\Sussyraider_3._0_C_.gui.resources
+C:\Users\Shin\Desktop\Data\vs_project\Sussyraider 3.0 C#\obj\Debug\Sussyraider_3._0_C_.Properties.Resources.resources
+C:\Users\Shin\Desktop\Data\vs_project\Sussyraider 3.0 C#\obj\Debug\Sussyraider 3.0 C#.csproj.GenerateResource.cache
+C:\Users\Shin\Desktop\Data\vs_project\Sussyraider 3.0 C#\obj\Debug\Sussyraider 3.0 C#.csproj.CoreCompileInputs.cache
+C:\Users\Shin\Desktop\Data\vs_project\Sussyraider 3.0 C#\obj\Debug\Sussyraider 3.0 C#.exe
+C:\Users\Shin\Desktop\Data\vs_project\Sussyraider 3.0 C#\obj\Debug\Sussyraider 3.0 C#.pdb
+C:\Users\Shin\Desktop\Data\vs_project\Sussyraider 3.0 C#\bin\Debug\System.CodeDom.dll
+C:\Users\Shin\Desktop\Data\vs_project\Sussyraider 3.0 C#\bin\Debug\System.CodeDom.xml
+C:\Users\Shin\Desktop\Data\vs_project\Sussyraider 3.0 C#\obj\Debug\Sussyraider 3.0 C#.csproj.CopyComplete
