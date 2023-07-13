@@ -14,15 +14,16 @@ namespace Sussyraider_3._0_C_
             this.MaximizeBox = false;
             InitializeComponent();
             label2.Text = "Hardware ID: "+get_hwid();
+            module_setting(1);
         }
         public static string get_hwid()
         {
             string text = "SOFTWARE\\Microsoft\\Cryptography";
             string text2 = "MachineGuid";
             string result;
-            using (RegistryKey registrykey = RegistryKey.OpenBaseKey(RegistryHive.LocalMachine, RegistryView.Registry64))
+            using (RegistryKey registrykey1 = RegistryKey.OpenBaseKey(RegistryHive.LocalMachine, RegistryView.Registry64))
             {
-                using (RegistryKey registrykey2 = registrykey.OpenSubKey(text))
+                using (RegistryKey registrykey2 = registrykey1.OpenSubKey(text))
                 {
                     bool flag = registrykey2 == null;
                     if (flag)
@@ -40,7 +41,108 @@ namespace Sussyraider_3._0_C_
                 }
             }
         }
-        private void button_click(int click_button)
+        private void defalut_image()
+        {
+            button_1.Image = Sussyraider_3._0_C_.Properties.Resources.join_leave;
+            button_2.Image = Sussyraider_3._0_C_.Properties.Resources.nick_avator;
+            button_3.Image = Sussyraider_3._0_C_.Properties.Resources.friend_dm;
+            button_4.Image = Sussyraider_3._0_C_.Properties.Resources.spammer;
+            button_5.Image = Sussyraider_3._0_C_.Properties.Resources.vcspammer;
+            button_6.Image = Sussyraider_3._0_C_.Properties.Resources.reaction;
+            button_7.Image = Sussyraider_3._0_C_.Properties.Resources.btnpusher;
+            button_8.Image = Sussyraider_3._0_C_.Properties.Resources.report;
+        }
+        private void hide_image()
+        {
+            button_1.Hide();
+            button_2.Hide();
+            button_3.Hide();
+            button_4.Hide();
+            button_5.Hide();
+            button_6.Hide();
+            button_7.Hide();
+            button_8.Hide();
+        }
+        private void show_image()
+        {
+            button_1.Show();
+            button_2.Show();
+            button_3.Show();
+            button_4.Show();
+            button_5.Show();
+            button_6.Show();
+            button_7.Show();
+            button_8.Show();
+        }
+
+        private void button_1_Click(object sender, EventArgs e)
+        {
+            module_setting(1);
+        }
+
+        private void button_2_Click(object sender, EventArgs e)
+        {
+            module_setting(2);
+        }
+
+        private void button_3_click(object sender, EventArgs e)
+        {
+            module_setting(3);
+        }
+
+        private void button_4_click(object sender, EventArgs e)
+        {
+            module_setting(4);
+        }
+
+        private void button_5_click(object sender, EventArgs e)
+        {
+            module_setting(5);
+        }
+
+        private void button_6_Click(object sender, EventArgs e)
+        {
+            module_setting(6);
+        }
+
+        private void button_7_Click(object sender, EventArgs e)
+        {
+            module_setting(7);
+        }
+
+        private void button_8_Click(object sender, EventArgs e)
+        {
+            module_setting(8);
+        }
+        private void button_frame_1_Click(object sender, EventArgs e)
+        {
+            module_frame(1);
+        }
+        private void button_frame_2_Click(object sender, EventArgs e)
+        {
+            module_frame(2);
+        }
+
+        private void module_frame(int click_button)
+        {
+            if (click_button == 1)
+            {
+                hide_image();
+                next_button_1.Image = Sussyraider_3._0_C_.Properties.Resources.white_right;
+                back_button_1.Image = Sussyraider_3._0_C_.Properties.Resources.blue_left;
+                back_button_1.Enabled = true;
+                defalut_image();
+            }
+            if (click_button == 2)
+            {
+                show_image();
+                next_button_1.Image = Sussyraider_3._0_C_.Properties.Resources.blue_right;
+                back_button_1.Image = Sussyraider_3._0_C_.Properties.Resources.white_left;
+                back_button_1.Enabled = false;
+                defalut_image();
+            }
+        }
+        private void module_setting(int click_button)
         {
             if (click_button == 1)
             {
@@ -82,101 +184,6 @@ namespace Sussyraider_3._0_C_
                 button_8.Image = Sussyraider_3._0_C_.Properties.Resources.sel_report;
             }
             else button_8.Image = Sussyraider_3._0_C_.Properties.Resources.report;
-        }
-        private void defalut_image(object sender, EventArgs e)
-        {
-            button_1.Image = Sussyraider_3._0_C_.Properties.Resources.join_leave;
-            button_2.Image = Sussyraider_3._0_C_.Properties.Resources.nick_avator;
-            button_3.Image = Sussyraider_3._0_C_.Properties.Resources.friend_dm;
-            button_4.Image = Sussyraider_3._0_C_.Properties.Resources.spammer;
-            button_5.Image = Sussyraider_3._0_C_.Properties.Resources.vcspammer;
-            button_6.Image = Sussyraider_3._0_C_.Properties.Resources.reaction;
-            button_7.Image = Sussyraider_3._0_C_.Properties.Resources.btnpusher;
-            button_8.Image = Sussyraider_3._0_C_.Properties.Resources.report;
-        }
-        private void next_frame(object sender, EventArgs e)
-        {
-
-            defalut_image(sender, e);
-
-            button_1.Hide();
-            button_2.Hide();
-            button_3.Hide();
-            button_4.Hide();
-            button_5.Hide();
-            button_6.Hide();
-            button_7.Hide();
-            button_8.Hide();
-
-            back_button_1.Image = Sussyraider_3._0_C_.Properties.Resources.blue_left;
-            next_button_1.Image = Sussyraider_3._0_C_.Properties.Resources.white_right;
-
-            back_button_1.Enabled = true;
-            back_button_1.Click += back_frame;
-        }
-        private void back_frame(object sender, EventArgs e)
-        {
-
-            defalut_image(sender, e);
-
-            button_1.Show();
-            button_2.Show();
-            button_3.Show();
-            button_4.Show();
-            button_5.Show();
-            button_6.Show();
-            button_7.Show();
-            button_8.Show();
-
-            back_button_1.Image = Sussyraider_3._0_C_.Properties.Resources.white_left;
-            next_button_1.Image = Sussyraider_3._0_C_.Properties.Resources.blue_right;
-
-            back_button_1.Enabled = false;
-        }
-
-        private void button_1_Click(object sender, EventArgs e)
-        {
-            button_click(1);
-        }
-
-        private void button_2_Click(object sender, EventArgs e)
-        {
-            button_click(2);
-        }
-
-        private void button_3_click(object sender, EventArgs e)
-        {
-            button_click(3);
-        }
-
-        private void button_4_click(object sender, EventArgs e)
-        {
-            button_click(4);
-        }
-
-        private void button_5_click(object sender, EventArgs e)
-        {
-            button_click(5);
-        }
-
-        private void button_6_Click(object sender, EventArgs e)
-        {
-            button_click(6);
-        }
-
-        private void button_7_Click(object sender, EventArgs e)
-        {
-            button_click(7);
-        }
-
-        private void button_8_Click(object sender, EventArgs e)
-        {
-            button_click(8);
-        }
-
-        private void next_button_1_Click(object sender, EventArgs e)
-        {
-            next_frame(sender, e);
         }
     }
 }
