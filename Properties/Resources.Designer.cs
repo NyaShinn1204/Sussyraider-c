@@ -133,6 +133,26 @@ namespace Sussyraider_3._0_C_.Properties {
         /// <summary>
         ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
         /// </summary>
+        internal static System.Drawing.Bitmap proxy_false {
+            get {
+                object obj = ResourceManager.GetObject("proxy_false", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap proxy_true {
+            get {
+                object obj = ResourceManager.GetObject("proxy_true", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
         internal static System.Drawing.Bitmap reaction {
             get {
                 object obj = ResourceManager.GetObject("reaction", resourceCulture);
@@ -236,6 +256,26 @@ namespace Sussyraider_3._0_C_.Properties {
         internal static System.Drawing.Bitmap spammer {
             get {
                 object obj = ResourceManager.GetObject("spammer", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap toggle_false {
+            get {
+                object obj = ResourceManager.GetObject("toggle_false", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap toggle_true {
+            get {
+                object obj = ResourceManager.GetObject("toggle_true", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

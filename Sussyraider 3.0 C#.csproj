@@ -160,5 +160,17 @@
   <ItemGroup>
     <None Include="Resources\white_left.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\proxy_false.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\proxy_true.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\toggle_true.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\toggle_false.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
