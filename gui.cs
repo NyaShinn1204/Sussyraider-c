@@ -15,8 +15,8 @@ namespace Sussyraider_3._0_C_
             InitializeComponent();
             label2.Text = "Hardware ID: "+get_hwid();
             module_setting(1);
-            textBox1.BringToFront();
-            textBox2.BringToFront();
+            join_leave_textBox2.BringToFront();
+            join_leave_textBox1.BringToFront();
         }
         public static string get_hwid()
         {
@@ -54,14 +54,14 @@ namespace Sussyraider_3._0_C_
             button_7.Image = Sussyraider_3._0_C_.Properties.Resources.btnpusher;
             button_8.Image = Sussyraider_3._0_C_.Properties.Resources.report;
 
-            label7.Visible = false;
-            label8.Visible = false;
-            pictureBox5.Visible = false;
-            pictureBox6.Visible = false;
-            textBox1.Visible = false;
-            textBox2.Visible = false;
-            textBox1.Enabled = false;
-            textBox2.Enabled = false;
+            join_leave_label1.Visible = false;
+            join_leave_label2.Visible = false;
+            join_leave_pictureBox1.Visible = false;
+            join_leave_pictureBox2.Visible = false;
+            join_leave_textBox2.Visible = false;
+            join_leave_textBox1.Visible = false;
+            join_leave_textBox2.Enabled = false;
+            join_leave_textBox1.Enabled = false;
         }
         private void hide_image()
         {
@@ -159,14 +159,14 @@ namespace Sussyraider_3._0_C_
             {
                 defalut_image();
                 button_1.Image = Sussyraider_3._0_C_.Properties.Resources.sel_join_leave;
-                label7.Visible = true;
-                label8.Visible = true;
-                pictureBox5.Visible = true;
-                pictureBox6.Visible = true;
-                textBox1.Visible = true;
-                textBox2.Visible = true;
-                textBox1.Enabled = true;
-                textBox2.Enabled = true;
+                join_leave_label1.Visible = true;
+                join_leave_label2.Visible = true;
+                join_leave_pictureBox1.Visible = true;
+                join_leave_pictureBox2.Visible = true;
+                join_leave_textBox2.Visible = true;
+                join_leave_textBox1.Visible = true;
+                join_leave_textBox2.Enabled = true;
+                join_leave_textBox1.Enabled = true;
             }
             if (click_button == 2)
             {

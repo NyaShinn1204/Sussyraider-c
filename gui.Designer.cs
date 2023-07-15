@@ -49,12 +49,12 @@
             this.label6 = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.join_leave_label1 = new System.Windows.Forms.Label();
+            this.join_leave_label2 = new System.Windows.Forms.Label();
+            this.join_leave_textBox2 = new System.Windows.Forms.TextBox();
+            this.join_leave_pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.join_leave_pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.join_leave_textBox1 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.button_1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.button_2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.button_3)).BeginInit();
@@ -69,8 +69,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.join_leave_pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.join_leave_pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -305,74 +305,74 @@
             this.pictureBox4.TabIndex = 19;
             this.pictureBox4.TabStop = false;
             // 
-            // label7
+            // join_leave_label1
             // 
-            this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(71)))), ((int)(((byte)(106)))));
-            this.label7.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 21F);
-            this.label7.ForeColor = System.Drawing.SystemColors.Control;
-            this.label7.Location = new System.Drawing.Point(388, 155);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(135, 32);
-            this.label7.TabIndex = 20;
-            this.label7.Text = "InviteLink";
-            this.label7.Visible = false;
+            this.join_leave_label1.AutoSize = true;
+            this.join_leave_label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(71)))), ((int)(((byte)(106)))));
+            this.join_leave_label1.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.join_leave_label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 21F);
+            this.join_leave_label1.ForeColor = System.Drawing.SystemColors.Control;
+            this.join_leave_label1.Location = new System.Drawing.Point(388, 155);
+            this.join_leave_label1.Name = "join_leave_label1";
+            this.join_leave_label1.Size = new System.Drawing.Size(135, 32);
+            this.join_leave_label1.TabIndex = 20;
+            this.join_leave_label1.Text = "InviteLink";
+            this.join_leave_label1.Visible = false;
             // 
-            // label8
+            // join_leave_label2
             // 
-            this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(71)))), ((int)(((byte)(106)))));
-            this.label8.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 21F);
-            this.label8.ForeColor = System.Drawing.SystemColors.Control;
-            this.label8.Location = new System.Drawing.Point(388, 245);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(124, 32);
-            this.label8.TabIndex = 21;
-            this.label8.Text = "ServerID";
-            this.label8.Visible = false;
+            this.join_leave_label2.AutoSize = true;
+            this.join_leave_label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(71)))), ((int)(((byte)(106)))));
+            this.join_leave_label2.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.join_leave_label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 21F);
+            this.join_leave_label2.ForeColor = System.Drawing.SystemColors.Control;
+            this.join_leave_label2.Location = new System.Drawing.Point(388, 245);
+            this.join_leave_label2.Name = "join_leave_label2";
+            this.join_leave_label2.Size = new System.Drawing.Size(124, 32);
+            this.join_leave_label2.TabIndex = 21;
+            this.join_leave_label2.Text = "ServerID";
+            this.join_leave_label2.Visible = false;
             // 
-            // textBox1
+            // join_leave_textBox2
             // 
-            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(103)))), ((int)(((byte)(127)))));
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
-            this.textBox1.ForeColor = System.Drawing.SystemColors.Control;
-            this.textBox1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.textBox1.Location = new System.Drawing.Point(393, 289);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(246, 23);
-            this.textBox1.TabIndex = 22;
+            this.join_leave_textBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(103)))), ((int)(((byte)(127)))));
+            this.join_leave_textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.join_leave_textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
+            this.join_leave_textBox2.ForeColor = System.Drawing.SystemColors.Control;
+            this.join_leave_textBox2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.join_leave_textBox2.Location = new System.Drawing.Point(393, 289);
+            this.join_leave_textBox2.Name = "join_leave_textBox2";
+            this.join_leave_textBox2.Size = new System.Drawing.Size(246, 23);
+            this.join_leave_textBox2.TabIndex = 22;
             // 
-            // pictureBox6
+            // join_leave_pictureBox2
             // 
-            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(380, 285);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(277, 35);
-            this.pictureBox6.TabIndex = 23;
-            this.pictureBox6.TabStop = false;
+            this.join_leave_pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("join_leave_pictureBox2.Image")));
+            this.join_leave_pictureBox2.Location = new System.Drawing.Point(380, 285);
+            this.join_leave_pictureBox2.Name = "join_leave_pictureBox2";
+            this.join_leave_pictureBox2.Size = new System.Drawing.Size(277, 35);
+            this.join_leave_pictureBox2.TabIndex = 23;
+            this.join_leave_pictureBox2.TabStop = false;
             // 
-            // pictureBox5
+            // join_leave_pictureBox1
             // 
-            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(380, 195);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(277, 33);
-            this.pictureBox5.TabIndex = 24;
-            this.pictureBox5.TabStop = false;
+            this.join_leave_pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("join_leave_pictureBox1.Image")));
+            this.join_leave_pictureBox1.Location = new System.Drawing.Point(380, 195);
+            this.join_leave_pictureBox1.Name = "join_leave_pictureBox1";
+            this.join_leave_pictureBox1.Size = new System.Drawing.Size(277, 33);
+            this.join_leave_pictureBox1.TabIndex = 24;
+            this.join_leave_pictureBox1.TabStop = false;
             // 
-            // textBox2
+            // join_leave_textBox1
             // 
-            this.textBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(103)))), ((int)(((byte)(127)))));
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
-            this.textBox2.ForeColor = System.Drawing.SystemColors.Control;
-            this.textBox2.Location = new System.Drawing.Point(393, 199);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(246, 23);
-            this.textBox2.TabIndex = 25;
+            this.join_leave_textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(103)))), ((int)(((byte)(127)))));
+            this.join_leave_textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.join_leave_textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
+            this.join_leave_textBox1.ForeColor = System.Drawing.SystemColors.Control;
+            this.join_leave_textBox1.Location = new System.Drawing.Point(393, 199);
+            this.join_leave_textBox1.Name = "join_leave_textBox1";
+            this.join_leave_textBox1.Size = new System.Drawing.Size(246, 23);
+            this.join_leave_textBox1.TabIndex = 25;
             // 
             // gui
             // 
@@ -383,12 +383,12 @@
             this.BackgroundImage = global::Sussyraider_3._0_C_.Properties.Resources.background;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1260, 791);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.pictureBox5);
-            this.Controls.Add(this.pictureBox6);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label7);
+            this.Controls.Add(this.join_leave_textBox1);
+            this.Controls.Add(this.join_leave_pictureBox1);
+            this.Controls.Add(this.join_leave_pictureBox2);
+            this.Controls.Add(this.join_leave_textBox2);
+            this.Controls.Add(this.join_leave_label2);
+            this.Controls.Add(this.join_leave_label1);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.label6);
@@ -427,8 +427,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.join_leave_pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.join_leave_pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -456,12 +456,12 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Label join_leave_label1;
+        private System.Windows.Forms.Label join_leave_label2;
+        private System.Windows.Forms.TextBox join_leave_textBox2;
+        private System.Windows.Forms.PictureBox join_leave_pictureBox2;
+        private System.Windows.Forms.PictureBox join_leave_pictureBox1;
+        private System.Windows.Forms.TextBox join_leave_textBox1;
     }
 }
 
