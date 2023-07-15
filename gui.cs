@@ -15,8 +15,6 @@ namespace Sussyraider_3._0_C_
             InitializeComponent();
             label2.Text = "Hardware ID: "+get_hwid();
             module_setting(1);
-            join_leave_textBox2.BringToFront();
-            join_leave_textBox1.BringToFront();
         }
         public static string get_hwid()
         {
@@ -53,15 +51,6 @@ namespace Sussyraider_3._0_C_
             button_6.Image = Sussyraider_3._0_C_.Properties.Resources.reaction;
             button_7.Image = Sussyraider_3._0_C_.Properties.Resources.btnpusher;
             button_8.Image = Sussyraider_3._0_C_.Properties.Resources.report;
-
-            join_leave_label1.Visible = false;
-            join_leave_label2.Visible = false;
-            join_leave_pictureBox1.Visible = false;
-            join_leave_pictureBox2.Visible = false;
-            join_leave_textBox2.Visible = false;
-            join_leave_textBox1.Visible = false;
-            join_leave_textBox2.Enabled = false;
-            join_leave_textBox1.Enabled = false;
         }
         private void hide_image()
         {
@@ -159,14 +148,6 @@ namespace Sussyraider_3._0_C_
             {
                 defalut_image();
                 button_1.Image = Sussyraider_3._0_C_.Properties.Resources.sel_join_leave;
-                join_leave_label1.Visible = true;
-                join_leave_label2.Visible = true;
-                join_leave_pictureBox1.Visible = true;
-                join_leave_pictureBox2.Visible = true;
-                join_leave_textBox2.Visible = true;
-                join_leave_textBox1.Visible = true;
-                join_leave_textBox2.Enabled = true;
-                join_leave_textBox1.Enabled = true;
             }
             if (click_button == 2)
             {
@@ -203,6 +184,21 @@ namespace Sussyraider_3._0_C_
                 defalut_image();
                 button_8.Image = Sussyraider_3._0_C_.Properties.Resources.sel_report;
             }
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void gui_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
