@@ -38,6 +38,7 @@
       <HintPath>packages\System.CodeDom.7.0.0\lib\net462\System.CodeDom.dll</HintPath>
     </Reference>
     <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Management" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -171,6 +172,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\toggle_false.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\entry_image_1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

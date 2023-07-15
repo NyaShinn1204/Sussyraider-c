@@ -15,6 +15,8 @@ namespace Sussyraider_3._0_C_
             InitializeComponent();
             label2.Text = "Hardware ID: "+get_hwid();
             module_setting(1);
+            textBox1.BringToFront();
+            textBox2.BringToFront();
         }
         public static string get_hwid()
         {
@@ -51,6 +53,15 @@ namespace Sussyraider_3._0_C_
             button_6.Image = Sussyraider_3._0_C_.Properties.Resources.reaction;
             button_7.Image = Sussyraider_3._0_C_.Properties.Resources.btnpusher;
             button_8.Image = Sussyraider_3._0_C_.Properties.Resources.report;
+
+            label7.Visible = false;
+            label8.Visible = false;
+            pictureBox5.Visible = false;
+            pictureBox6.Visible = false;
+            textBox1.Visible = false;
+            textBox2.Visible = false;
+            textBox1.Enabled = false;
+            textBox2.Enabled = false;
         }
         private void hide_image()
         {
@@ -146,44 +157,52 @@ namespace Sussyraider_3._0_C_
         {
             if (click_button == 1)
             {
+                defalut_image();
                 button_1.Image = Sussyraider_3._0_C_.Properties.Resources.sel_join_leave;
+                label7.Visible = true;
+                label8.Visible = true;
+                pictureBox5.Visible = true;
+                pictureBox6.Visible = true;
+                textBox1.Visible = true;
+                textBox2.Visible = true;
+                textBox1.Enabled = true;
+                textBox2.Enabled = true;
             }
-            else button_1.Image = Sussyraider_3._0_C_.Properties.Resources.join_leave;
             if (click_button == 2)
             {
+                defalut_image();
                 button_2.Image = Sussyraider_3._0_C_.Properties.Resources.sel_nick_avator;
             }
-            else button_2.Image = Sussyraider_3._0_C_.Properties.Resources.nick_avator;
             if (click_button == 3)
             {
+                defalut_image();
                 button_3.Image = Sussyraider_3._0_C_.Properties.Resources.sel_friend_dm;
             }
-            else button_3.Image = Sussyraider_3._0_C_.Properties.Resources.friend_dm;
             if (click_button == 4)
             {
+                defalut_image();
                 button_4.Image = Sussyraider_3._0_C_.Properties.Resources.sel_spammer;
             }
-            else button_4.Image = Sussyraider_3._0_C_.Properties.Resources.spammer;
             if (click_button == 5)
             {
+                defalut_image();
                 button_5.Image = Sussyraider_3._0_C_.Properties.Resources.sel_vcspammer;
             }
-            else button_5.Image = Sussyraider_3._0_C_.Properties.Resources.vcspammer;
             if (click_button == 6)
             {
+                defalut_image();
                 button_6.Image = Sussyraider_3._0_C_.Properties.Resources.sel_reaction;
             }
-            else button_6.Image = Sussyraider_3._0_C_.Properties.Resources.reaction;
             if (click_button == 7)
             {
+                defalut_image();
                 button_7.Image = Sussyraider_3._0_C_.Properties.Resources.sel_btnpusher;
             }
-            else button_7.Image = Sussyraider_3._0_C_.Properties.Resources.btnpusher;
             if (click_button == 8)
             {
+                defalut_image();
                 button_8.Image = Sussyraider_3._0_C_.Properties.Resources.sel_report;
             }
-            else button_8.Image = Sussyraider_3._0_C_.Properties.Resources.report;
         }
     }
 }

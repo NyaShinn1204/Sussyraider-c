@@ -103,6 +103,16 @@ namespace Sussyraider_3._0_C_.Properties {
         /// <summary>
         ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
         /// </summary>
+        internal static System.Drawing.Bitmap entry_image_1 {
+            get {
+                object obj = ResourceManager.GetObject("entry_image_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
         internal static System.Drawing.Bitmap friend_dm {
             get {
                 object obj = ResourceManager.GetObject("friend_dm", resourceCulture);
